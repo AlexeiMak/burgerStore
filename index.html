@@ -112,7 +112,7 @@
       </nav>
 
       <section class="catalog">
-        <div class="container">
+        <div class="container catalog__container">
           <div class="catalog__order order order__open">
             <section class="order__wrapper">
               <div class="order__wrap-title" tabindex="0" role="button">
@@ -120,7 +120,71 @@
                 <span class="order__caunt">4</span>
               </div>
               <div class="order__wrap_list">
-                <ul class="order_list"></ul>
+                <ul class="order__list">
+                  <li class="order__item">
+                    <img
+                      src="./img/burger1.jpg"
+                      alt="Супер сырный"
+                      class="order__image"
+                    />
+                    <div class="order__product">
+                      <h3 class="order__product-title">Супер сырный</h3>
+                      <p class="order__product-weight">512г</p>
+                      <p class="order__product-price">
+                        550
+                        <span class="currensy">₴</span>
+                      </p>
+                    </div>
+
+                    <div class="order__product-count count">
+                      <button class="count__minus">-</button>
+                      <p class="count__amount">1</p>
+                      <button class="count__plus">+</button>
+                    </div>
+                  </li>
+
+                  <li class="order__item">
+                    <img
+                      src="./img/potatto-fry1.jpg"
+                      alt="Супер сырный"
+                      class="order__image"
+                    />
+                    <div class="order__product">
+                      <h3 class="order__product-title">Картошка фри</h3>
+                      <p class="order__product-weight">180г</p>
+                      <p class="order__product-price">
+                        245<span class="currensy">₴</span>
+                      </p>
+                    </div>
+
+                    <div class="order__product-count count">
+                      <button class="count__minus">-</button>
+                      <p class="count__amount">2</p>
+                      <button class="count__plus">+</button>
+                    </div>
+                  </li>
+
+                  <li class="order__item">
+                    <img
+                      src="./img/hot-dog1.jpg"
+                      alt="Жгучий хот-дог"
+                      class="order__image"
+                    />
+                    <div class="order__product">
+                      <h3 class="order__product-title">Жгучий хот-дог</h3>
+                      <p class="order__product-weight">245г</p>
+                      <p class="order__product-price">
+                        239<span class="currensy">₴</span>
+                      </p>
+                    </div>
+
+                    <div class="order__product-count count">
+                      <button class="count__minus">-</button>
+                      <p class="count__amount">1</p>
+                      <button class="count__plus">+</button>
+                    </div>
+                  </li>
+                </ul>
                 <div class="order__total">
                   <p>Итого</p>
                   <p>
@@ -140,7 +204,121 @@
           <div class="catalog__wrapper">
             <h2 class="catalog__title">Бургеры</h2>
             <div class="catalog__wrap_list">
-              <ul class="catalog__list"></ul>
+              <ul class="catalog__list">
+                <li class="catalog__item">
+                  <article class="product">
+                    <img
+                      src=".//img/photo-5.jpg"
+                      alt="Мясная бомба"
+                      class="product__image"
+                    />
+                    <p class="product__price">
+                      689<span class="currency">₴</span>
+                    </p>
+
+                    <h3 class="product__title">
+                      <button class="product__detail">Мясная бомба</button>
+                    </h3>
+                    <p class="product__weight">520г</p>
+                    <button class="product__add" type="button">Добавить</button>
+                  </article>
+                </li>
+
+                <li class="catalog__item">
+                  <article class="product">
+                    <img
+                      src=".//img/photo-1.jpg"
+                      alt="Мясная бомба"
+                      class="product__image"
+                    />
+                    <p class="product__price">
+                      550<span class="currency">₴</span>
+                    </p>
+
+                    <h3 class="product__title">
+                      <button class="product__detail">Супер сырный</button>
+                    </h3>
+                    <p class="product__weight">512г</p>
+                    <button class="product__add" type="button">Добавить</button>
+                  </article>
+                </li>
+
+                <li class="catalog__item">
+                  <article class="product">
+                    <img
+                      src=".//img/photo-3.jpg"
+                      alt="Мясная бомба"
+                      class="product__image"
+                    />
+                    <p class="product__price">
+                      639<span class="currency">₴</span>
+                    </p>
+
+                    <h3 class="product__title">
+                      <button class="product__detail">Сытный</button>
+                    </h3>
+                    <p class="product__weight">580г</p>
+                    <button class="product__add" type="button">Добавить</button>
+                  </article>
+                </li>
+
+                <li class="catalog__item">
+                  <article class="product">
+                    <img
+                      src=".//img/photo.jpg"
+                      alt="Мясная бомба"
+                      class="product__image"
+                    />
+                    <p class="product__price">
+                      480<span class="currency">₴</span>
+                    </p>
+
+                    <h3 class="product__title">
+                      <button class="product__detail">Тяжелый удар</button>
+                    </h3>
+                    <p class="product__weight">470г</p>
+                    <button class="product__add" type="button">Добавить</button>
+                  </article>
+                </li>
+
+                <li class="catalog__item">
+                  <article class="product">
+                    <img
+                      src=".//img/photo-2.jpg"
+                      alt="Мясная бомба"
+                      class="product__image"
+                    />
+                    <p class="product__price">
+                      450<span class="currency">₴</span>
+                    </p>
+
+                    <h3 class="product__title">
+                      <button class="product__detail">Вечная классика</button>
+                    </h3>
+                    <p class="product__weight">450г</p>
+                    <button class="product__add" type="button">Добавить</button>
+                  </article>
+                </li>
+
+                <li class="catalog__item">
+                  <article class="product">
+                    <img
+                      src=".//img/photo-4.jpg"
+                      alt="Мясная бомба"
+                      class="product__image"
+                    />
+                    <p class="product__price">
+                      460<span class="currency">₴</span>
+                    </p>
+
+                    <h3 class="product__title">
+                      <button class="product__detail">Итальянский</button>
+                    </h3>
+                    <p class="product__weight">560г</p>
+                    <button class="product__add" type="button">Добавить</button>
+                  </article>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
